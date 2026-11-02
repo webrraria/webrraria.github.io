@@ -4,7 +4,7 @@
   src="./logostuff/webrraria.png" 
   />
   <p>
-  <strong>A web port of Webrraria!</strong>
+  <strong>A web port of Terraria!</strong>
   </p>
   <a 
   href="https://webrraria.github.io/" 
