@@ -1,0 +1,922 @@
+{
+  "version": "0.17.4",
+  "private": true,
+  "files": [
+    {
+      "path": "assets/fonts/ANDYB.TTF",
+      "bytes": 63396,
+      "sha256": "8407a2a6acce2eec636ddb5ad57db52b858bae47aa4a258fc9da02caeb8fe5da"
+    },
+    {
+      "path": "assets/music/Menu_Classic.mp3",
+      "bytes": 1143266,
+      "sha256": "4068205c4342291f220f4f37feea00bf82075a97e7a61224b914e53ff661d308"
+    },
+    {
+      "path": "assets/music/Menu_Journey.mp3",
+      "bytes": 1042694,
+      "sha256": "786663207099e0d42e1f33699b6257482d169d493f114bcbd01cb33f240b8059"
+    },
+    {
+      "path": "assets/sounds/Dig_0.wav",
+      "bytes": 5648,
+      "sha256": "1cd658ac0d8b882e6e35743171ce5f097fd25ee705c8cdd6c77b4af57d1f45f5"
+    },
+    {
+      "path": "assets/sounds/Dig_1.wav",
+      "bytes": 7596,
+      "sha256": "8e00219c1e5591f1a826e858b38af93497eef0084d5a0d4322689098bbe67fef"
+    },
+    {
+      "path": "assets/sounds/Dig_2.wav",
+      "bytes": 11692,
+      "sha256": "93c5aa637b60763698e16d02fcb61a2201659973aae238dda5f8540ef6319be3"
+    },
+    {
+      "path": "assets/sounds/Grab.wav",
+      "bytes": 47292,
+      "sha256": "24dda390f1237569d698c208373b738b6d5b546854b06c0d6fb62bd5903c479d"
+    },
+    {
+      "path": "assets/sounds/Grass.wav",
+      "bytes": 38258,
+      "sha256": "fd4a9735c42990fb9f0f53f6661b81f418629a8963aef48803cb072ce2fabdd7"
+    },
+    {
+      "path": "assets/sounds/Item_1.wav",
+      "bytes": 29164,
+      "sha256": "f2e48f8a0bd0615f0fb507fe0377a77fda471ff1300aecf0a375a78bedc8bd97"
+    },
+    {
+      "path": "assets/sounds/Item_37.wav",
+      "bytes": 54984,
+      "sha256": "832e43363fac462b211b6156ad246b1cb97fa5435246ad53eabdb353dd74877f"
+    },
+    {
+      "path": "assets/sounds/Item_7.wav",
+      "bytes": 62316,
+      "sha256": "ece0ff86a6dd4eeefccdf727822a47fbebffc5707edc5f7dd185117e6014f198"
+    },
+    {
+      "path": "assets/sounds/Menu_Close.wav",
+      "bytes": 24128,
+      "sha256": "95e21b50d3168608cb11dbfb4c1f22faba65dc02b25ed6852cd97a588724265e"
+    },
+    {
+      "path": "assets/sounds/Menu_Open.wav",
+      "bytes": 27568,
+      "sha256": "5befafa048410d9902a10f701ba0dbd175b6cba16561360c15344eb366e7f33c"
+    },
+    {
+      "path": "assets/sounds/Menu_Tick.wav",
+      "bytes": 12636,
+      "sha256": "149d78b79edb244033190c2985a3ef8690cf189fb6dd529fcd7a76a39277fe4e"
+    },
+    {
+      "path": "assets/sounds/NPC_Hit_1.wav",
+      "bytes": 25780,
+      "sha256": "23cf8088c7768a80f82c8b401737c8a341d632c88e7efdaffce560fc5f9bdbc9"
+    },
+    {
+      "path": "assets/sounds/NPC_Hit_2.wav",
+      "bytes": 29420,
+      "sha256": "a1dd63115f3c7f31d966f8cdefc8b62036b3f7f783caf69fa5a08317b610e123"
+    },
+    {
+      "path": "assets/sounds/NPC_Killed_1.wav",
+      "bytes": 60460,
+      "sha256": "141b2fe459301599a422cd03f6c57caa755bccc19b74da6c607948be4682a993"
+    },
+    {
+      "path": "assets/sounds/NPC_Killed_2.wav",
+      "bytes": 134188,
+      "sha256": "a5ffd625a37c5fdf67bcbdd22b6f175866fb57f731aa472bb5df6352e0c51471"
+    },
+    {
+      "path": "assets/sounds/Player_Hit_0.wav",
+      "bytes": 44972,
+      "sha256": "339c563db5af83d5af97e6654ae5e237a76228df7af4f2f30a2d75878aa6b228"
+    },
+    {
+      "path": "assets/sounds/Player_Hit_1.wav",
+      "bytes": 44332,
+      "sha256": "92548a849ba8ce94299860534ac51c1201f4de93db95ecda11c8fbcdac831973"
+    },
+    {
+      "path": "assets/sounds/Player_Hit_2.wav",
+      "bytes": 33520,
+      "sha256": "4c7ab7ed8f6caf7af4f41c73c5cda3e86d7048211f43c9f9be3b7269cf808f54"
+    },
+    {
+      "path": "assets/sounds/Player_Killed.wav",
+      "bytes": 149548,
+      "sha256": "bf15a49220732eb0f15418d195f72cf9f6e8cc3ecf585d583c7abac9f3249cd0"
+    },
+    {
+      "path": "assets/sounds/Run.wav",
+      "bytes": 28204,
+      "sha256": "9a9eadad537ae1f81b308f637dec0c9dc89770a73081c6671971204326a1221f"
+    },
+    {
+      "path": "assets/sounds/Tink_0.wav",
+      "bytes": 12396,
+      "sha256": "dc902a809c6dff9661ee2ceeaa011880cc14aefa1534c45a4e8be4a80fff5ce3"
+    },
+    {
+      "path": "assets/sounds/Tink_1.wav",
+      "bytes": 8148,
+      "sha256": "b9f06a83dffeda4932ed2b5d316c6d2b655c70f2803ee96895137363ae600bf2"
+    },
+    {
+      "path": "assets/sounds/Tink_2.wav",
+      "bytes": 7580,
+      "sha256": "547cca7a97c302421a9550f2a6dcc452e646ab2a65b6296b18f72aa14df4a1f9"
+    },
+    {
+      "path": "assets/textures/Background_0.png",
+      "bytes": 3459,
+      "sha256": "74b46367c43f5160c9e05b1621bc93ee1253e6b3ac8d00443c0640b15c24d52c"
+    },
+    {
+      "path": "assets/textures/Background_11.png",
+      "bytes": 54974,
+      "sha256": "86b6ee04d02096c18c4e6bd644c9cf498ffe274393a645c78a3f58f4042122d0"
+    },
+    {
+      "path": "assets/textures/Background_2.png",
+      "bytes": 2088,
+      "sha256": "bb4df29be11931dfb636d4fc6620d61255a4fb10fc5d50327df4e055fd0b2209"
+    },
+    {
+      "path": "assets/textures/Background_20.png",
+      "bytes": 12964,
+      "sha256": "efa5ecb29f9fb804de2606f64e4095ace5e8795cba911ec86f74cacbb57770f1"
+    },
+    {
+      "path": "assets/textures/Background_21.png",
+      "bytes": 15519,
+      "sha256": "b0fbbd9c66697e369095e08150fb5cc96108f209537d0bc40c516d9d7bfe4447"
+    },
+    {
+      "path": "assets/textures/Background_22.png",
+      "bytes": 24597,
+      "sha256": "c31f9b41eee677aa08103ed54c4d6865f68215b5f881036c79fb3ecb2cc72e4d"
+    },
+    {
+      "path": "assets/textures/Background_3.png",
+      "bytes": 2254,
+      "sha256": "1e346240924262e2b2290148f966d961ce6178763f59e4e16a7a953f1d8bb63a"
+    },
+    {
+      "path": "assets/textures/Background_35.png",
+      "bytes": 34660,
+      "sha256": "52c41a785e07a61e64b145125ebd05dcc635cd1fd0e102a6e4b84bfa0b5007cc"
+    },
+    {
+      "path": "assets/textures/Background_36.png",
+      "bytes": 37175,
+      "sha256": "7732ca32378ac22114a847be73e4c2bc35fcef386db5832752030bc1f6fd30eb"
+    },
+    {
+      "path": "assets/textures/Background_37.png",
+      "bytes": 66851,
+      "sha256": "1aab2dab476de01bf2d15bd645fe9944034224368c574fb47f09f8d3603795c5"
+    },
+    {
+      "path": "assets/textures/Background_39.png",
+      "bytes": 75025,
+      "sha256": "0d05e12552ec75afb1ac7996f294785ac644a3f856c402aae9fa0a0414bc111c"
+    },
+    {
+      "path": "assets/textures/Background_46.png",
+      "bytes": 39327,
+      "sha256": "187cb8a66ce99554aba49e960fc84b9f73549d126d8abd7ec517f311068658cf"
+    },
+    {
+      "path": "assets/textures/Background_47.png",
+      "bytes": 39560,
+      "sha256": "e5f8907a440ad864f9ea8da3abb3348640da9834ac75db2eada12fb8f11c001c"
+    },
+    {
+      "path": "assets/textures/Background_48.png",
+      "bytes": 39676,
+      "sha256": "6d397234d601638fa643ae56099abe1667c82252329f161bffd6b565766fe5a1"
+    },
+    {
+      "path": "assets/textures/Background_50.png",
+      "bytes": 54316,
+      "sha256": "9bd9582bbf30ce61cef06b10d09a4b7e2d34c857d0d9768681310002aa996a29"
+    },
+    {
+      "path": "assets/textures/Background_51.png",
+      "bytes": 54317,
+      "sha256": "15175df3a1c3da76b17afd1d130bd1dc59dfa1048b677d774cd2fde08a75f3d5"
+    },
+    {
+      "path": "assets/textures/Background_52.png",
+      "bytes": 54317,
+      "sha256": "51931f5f7c31c75b348871511adb78f722cb707d7fec15d9825ff93a502a4caa"
+    },
+    {
+      "path": "assets/textures/Background_7.png",
+      "bytes": 48347,
+      "sha256": "2a83444ffdd2de1acade9d7982d39407e228d5f6fbd94fbb336c97c8c7269aa0"
+    },
+    {
+      "path": "assets/textures/Background_8.png",
+      "bytes": 41599,
+      "sha256": "f2f0f231676447b90e1f4f39ad0cbbf988e9309caf05d5dd11ace87cf74256d5"
+    },
+    {
+      "path": "assets/textures/Background_9.png",
+      "bytes": 52706,
+      "sha256": "9ae084a866bc4af0eb24645907aaeb1301a3a0954a9ba402708824b9880e9654"
+    },
+    {
+      "path": "assets/textures/Character_0.png",
+      "bytes": 3694,
+      "sha256": "fdd9afcb16cc304ca7a99ec33b707ff9a0ffa3462104a518896623555d4c76e7"
+    },
+    {
+      "path": "assets/textures/Character_1.png",
+      "bytes": 3622,
+      "sha256": "ec401096dfbb9dca0abba14c63af5a958a9759edb122eae6d9f7c380407b2a68"
+    },
+    {
+      "path": "assets/textures/Character_2.png",
+      "bytes": 3668,
+      "sha256": "3d108f02e995f0bce185ba5664e0f5009372d8f60616fd273213adf6c1974a3a"
+    },
+    {
+      "path": "assets/textures/Cloud_0.png",
+      "bytes": 2085,
+      "sha256": "3ea15b37d6d27f542554c822effd21e1011dd73edfb3a4737d1a2b8f97555e52"
+    },
+    {
+      "path": "assets/textures/Cloud_1.png",
+      "bytes": 1161,
+      "sha256": "b56f2f2c7b9e5547f9246e1269ce448aa6cc7fff2e523234dca9ffc78b566664"
+    },
+    {
+      "path": "assets/textures/Cloud_2.png",
+      "bytes": 1280,
+      "sha256": "068c95d7712d58fc82c59128da80e5610fe5cac76b70d70a9120c15bca88e696"
+    },
+    {
+      "path": "assets/textures/Cloud_3.png",
+      "bytes": 479,
+      "sha256": "2657e2b0e746028fb17e9e1f4524afc238a1901209fed5ac920f5aaee9d88dbd"
+    },
+    {
+      "path": "assets/textures/Cloud_4.png",
+      "bytes": 3459,
+      "sha256": "4dc5b4a6dc61c7709546df1a5cc5b34daf71dd85d1aa06ebcb101c03a08a4091"
+    },
+    {
+      "path": "assets/textures/Heart.png",
+      "bytes": 250,
+      "sha256": "a3d1ca82e95871c7ecd2b615c3bc416ea3d576e02b7da9e3abac2624b5bfea5d"
+    },
+    {
+      "path": "assets/textures/Inventory_Back.png",
+      "bytes": 278,
+      "sha256": "492b89a626ffe1d04a5bc15bd8d03b965d91f2aebf9ce03d8b81f87bb8f953fc"
+    },
+    {
+      "path": "assets/textures/Inventory_Back2.png",
+      "bytes": 282,
+      "sha256": "636eb2b9e2deff2ffefef6701c500988bf9cedac37a0bec155097baebe0d8b94"
+    },
+    {
+      "path": "assets/textures/Item_1.png",
+      "bytes": 322,
+      "sha256": "866c12b1b3cbcb2ec36a9da4a9b3b9eed13bdc1965160c9bf9e39f75b113d491"
+    },
+    {
+      "path": "assets/textures/Item_10.png",
+      "bytes": 319,
+      "sha256": "aef2de44603dd35eff2ed978deea0cf2e62cfe218556a38700eeb8e41f6e7dba"
+    },
+    {
+      "path": "assets/textures/Item_11.png",
+      "bytes": 219,
+      "sha256": "44f019bb7777c051995b0ceaab9783f9f51a223b7af92b6d5235f42e35e1c1d6"
+    },
+    {
+      "path": "assets/textures/Item_12.png",
+      "bytes": 217,
+      "sha256": "c3d017b5e667df0750d0bbb4074912e7b23d88b061cfb00b7315546d6b5fce70"
+    },
+    {
+      "path": "assets/textures/Item_129.png",
+      "bytes": 183,
+      "sha256": "21d40c6f704ff5f1418329eaf7fc21afd3bcd7ba2722b68226850fd0f5ee0a59"
+    },
+    {
+      "path": "assets/textures/Item_13.png",
+      "bytes": 219,
+      "sha256": "322a412a233399fc1a708e8e9787a68b2124d1794cdefb63777d7e9961ea9b28"
+    },
+    {
+      "path": "assets/textures/Item_137.png",
+      "bytes": 202,
+      "sha256": "0ddc111884d6a6386cf6b58652e62e3a419431dbe4634cd9cdc03650d2c67904"
+    },
+    {
+      "path": "assets/textures/Item_169.png",
+      "bytes": 173,
+      "sha256": "4ff21ed794df862da69365a504fbf30428d750180aebe0476349e015410a551a"
+    },
+    {
+      "path": "assets/textures/Item_170.png",
+      "bytes": 159,
+      "sha256": "5c011c969a266669238c6a630a553e5a0d9f92f3407216380314e98d8d898bf7"
+    },
+    {
+      "path": "assets/textures/Item_176.png",
+      "bytes": 172,
+      "sha256": "6e7e17acb6d9d02f94682f5f5850bce6aada9eb7304d4aaddfe54e8532b8d5a9"
+    },
+    {
+      "path": "assets/textures/Item_183.png",
+      "bytes": 295,
+      "sha256": "446132c4373dcf6ed19db4d5fad8a11b8952e5d74da5ef0e71b2734defda7691"
+    },
+    {
+      "path": "assets/textures/Item_188.png",
+      "bytes": 330,
+      "sha256": "e28701094c1845bdd0c3305301aab8519cfdf2edb6c21b0672ea1e557ce781b2"
+    },
+    {
+      "path": "assets/textures/Item_190.png",
+      "bytes": 794,
+      "sha256": "9e2bec5da2fd502aa1d31670d3845e4a94053ca6ba140ed66761aa19f274c37b"
+    },
+    {
+      "path": "assets/textures/Item_194.png",
+      "bytes": 192,
+      "sha256": "ec2d04b8fca35f36f0aa399aefff930680873bdc11dd1dd0fae41787705d251d"
+    },
+    {
+      "path": "assets/textures/Item_195.png",
+      "bytes": 192,
+      "sha256": "279652edefb84d4b1481dcbdc5dd89e95752771305e0a6173b73792263f8e9f5"
+    },
+    {
+      "path": "assets/textures/Item_1976.png",
+      "bytes": 229,
+      "sha256": "65c7c4eb8220c951dc47e58112dc78ca04df1d3437d75277f34404fb1ac4d786"
+    },
+    {
+      "path": "assets/textures/Item_2.png",
+      "bytes": 172,
+      "sha256": "a6ef1e9940bcca41a4cba400379d584569c87c57057f7d5e5f79594c515a3456"
+    },
+    {
+      "path": "assets/textures/Item_20.png",
+      "bytes": 308,
+      "sha256": "2e53233559e2de437e71100dd1649a90118908224296f7249125f2e65275009e"
+    },
+    {
+      "path": "assets/textures/Item_210.png",
+      "bytes": 242,
+      "sha256": "cec960144e02f27bc435f513ec6e7ab45482ec66d221a245cd29a657f725aff5"
+    },
+    {
+      "path": "assets/textures/Item_2119.png",
+      "bytes": 168,
+      "sha256": "74c9e7105e52ea6e650ed7c9c5a783d9ff1a94c8e8d9586a8628b7cceefefc49"
+    },
+    {
+      "path": "assets/textures/Item_2133.png",
+      "bytes": 203,
+      "sha256": "ae59b5569170c4410071b2b7896314776da539a61a133973bd1160b502b86ded"
+    },
+    {
+      "path": "assets/textures/Item_22.png",
+      "bytes": 327,
+      "sha256": "cd6c90ac775e5c6b21749f8074a0dde0fcbf103347a0b5ac87afe6d482bb590b"
+    },
+    {
+      "path": "assets/textures/Item_23.png",
+      "bytes": 159,
+      "sha256": "fcc06c640535875d5fa278f482d751a4fe318054ef911b57606b2e180158bbf3"
+    },
+    {
+      "path": "assets/textures/Item_2322.png",
+      "bytes": 344,
+      "sha256": "4b3b79447cdeaaa494dd76e402743c97808dfc2c7ea2986a81f196d80231d289"
+    },
+    {
+      "path": "assets/textures/Item_2547.png",
+      "bytes": 253,
+      "sha256": "43eae871da1333716f580afd75960c6f739c140bcdca469df7b93f1e8ee768a0"
+    },
+    {
+      "path": "assets/textures/Item_28.png",
+      "bytes": 293,
+      "sha256": "66d395b92b3891f19ba7250f9886623d5cc189dc7236c266359d1019fde55b72"
+    },
+    {
+      "path": "assets/textures/Item_298.png",
+      "bytes": 317,
+      "sha256": "9f49feb9988d7be66202236cbcb396282264fa86530c350e3efd339fc9a29e3d"
+    },
+    {
+      "path": "assets/textures/Item_3.png",
+      "bytes": 181,
+      "sha256": "d4d22e7becfeea7cff3e0fee4e5c25e30c378e35862e86f9ca4c33826315897a"
+    },
+    {
+      "path": "assets/textures/Item_3066.png",
+      "bytes": 188,
+      "sha256": "2ccb4573584290482849ea58600170f48bf2f9d386aac574673075f8b9520a7c"
+    },
+    {
+      "path": "assets/textures/Item_3087.png",
+      "bytes": 182,
+      "sha256": "1b1f79928c6cb0fe4c46d12ca53ac5d66361b172cb9995f02f183cb4dc645d55"
+    },
+    {
+      "path": "assets/textures/Item_31.png",
+      "bytes": 202,
+      "sha256": "0772ad6868bba97667226c82c0000a87dab6d63e1eb7202b43a69492c7eb3f27"
+    },
+    {
+      "path": "assets/textures/Item_32.png",
+      "bytes": 227,
+      "sha256": "c2f20c54d8d4dda3ea14f247f3c2ba447c26eea3765c1d0320ac5ba3cf2a2e1d"
+    },
+    {
+      "path": "assets/textures/Item_33.png",
+      "bytes": 452,
+      "sha256": "3cc8dea1780a0cd513ef14d52522381e881546b99f934ffde0d82d733da47faa"
+    },
+    {
+      "path": "assets/textures/Item_331.png",
+      "bytes": 193,
+      "sha256": "a99e9a8dd21cb00b7a22cdab58ca1cc15cea6107661635aa41170227226cf57d"
+    },
+    {
+      "path": "assets/textures/Item_3377.png",
+      "bytes": 376,
+      "sha256": "83831a6055a95b08786c7958cd0691b47dc8f0aeeaf24cf550d26c8f721f584c"
+    },
+    {
+      "path": "assets/textures/Item_34.png",
+      "bytes": 221,
+      "sha256": "c74b4e1612a30e7c75bb7d2864f45b860443865c58b1c57c64771c05d837d2cf"
+    },
+    {
+      "path": "assets/textures/Item_35.png",
+      "bytes": 240,
+      "sha256": "443dfbb0b07b9270aa8f11202c366e1e16b2f98a7eb850a03dd1dfea426c2167"
+    },
+    {
+      "path": "assets/textures/Item_3506.png",
+      "bytes": 312,
+      "sha256": "69dd119215299eeb8faa8015179f5105f70d55ee2d83c80cff82c6abef7213b4"
+    },
+    {
+      "path": "assets/textures/Item_3507.png",
+      "bytes": 271,
+      "sha256": "2fffea613d572c999f25525925c67d28e747900f4d855c1f395a262558c2b941"
+    },
+    {
+      "path": "assets/textures/Item_3509.png",
+      "bytes": 339,
+      "sha256": "6d0508213a318d284c971db247cc1c125737a672c827879fddfdc9d87f84a3db"
+    },
+    {
+      "path": "assets/textures/Item_3520.png",
+      "bytes": 350,
+      "sha256": "91f5abed0ba504df020ac199987561a1c614edd62af1c2c060f586f252823fcb"
+    },
+    {
+      "path": "assets/textures/Item_3521.png",
+      "bytes": 355,
+      "sha256": "a2e2209988a5ec2862125284e7f0be93c5636705f3c10c1cc8ef3766c1e9e2e8"
+    },
+    {
+      "path": "assets/textures/Item_36.png",
+      "bytes": 237,
+      "sha256": "90295fe468d70163c492ccf87c18a18ef6bdcb515fcd8aa3fdb041f88d72cbce"
+    },
+    {
+      "path": "assets/textures/Item_38.png",
+      "bytes": 181,
+      "sha256": "d9c391512f4898b8068a6da6d1b57338eb3bced60fac5fbdc035bdde844818bc"
+    },
+    {
+      "path": "assets/textures/Item_4.png",
+      "bytes": 343,
+      "sha256": "d549864215d90b314ae4cde51c808787f1fc8c1dabca4285300e8b3048a469b1"
+    },
+    {
+      "path": "assets/textures/Item_413.png",
+      "bytes": 180,
+      "sha256": "d7c3616f6bcd57fa5dd28b9821596fe183e51fb2e1b26d753bd3eaff0f72f0f4"
+    },
+    {
+      "path": "assets/textures/Item_4257.png",
+      "bytes": 343,
+      "sha256": "4e05113c404fbf31327d82b899f77d8675aa6cc1811a49d093c025be65278cd6"
+    },
+    {
+      "path": "assets/textures/Item_4646.png",
+      "bytes": 248,
+      "sha256": "981e5b79121b7487a36ed82d3ef05b6c7e01745036b6d27388956ed16c75fd23"
+    },
+    {
+      "path": "assets/textures/Item_48.png",
+      "bytes": 377,
+      "sha256": "5265b15ac4bcfed7d8d7d8096149f1193fae8181d7514879b93f7a221696cbe4"
+    },
+    {
+      "path": "assets/textures/Item_480.png",
+      "bytes": 186,
+      "sha256": "0a40e2df710ef6488c5330cad2f64e157559845ab166087e58cb70a340b84f41"
+    },
+    {
+      "path": "assets/textures/Item_593.png",
+      "bytes": 170,
+      "sha256": "7f43b6b3dea180c877f272aa1e1831365d00f46740e85e14f8b8569dfdfc2de1"
+    },
+    {
+      "path": "assets/textures/Item_594.png",
+      "bytes": 186,
+      "sha256": "ea8b930c6cd62e9523812e75cfb90fdcaf349feab4762b2453a5046b768fb2d6"
+    },
+    {
+      "path": "assets/textures/Item_607.png",
+      "bytes": 189,
+      "sha256": "137eddab12c3f244ebaeab9343397b7964e0e07a9138f480aa435c0796e78352"
+    },
+    {
+      "path": "assets/textures/Item_620.png",
+      "bytes": 251,
+      "sha256": "652aaef643f52917f49c6e44ab2759f4a93b4ae4d23d84ab837a9e4b13808ba3"
+    },
+    {
+      "path": "assets/textures/Item_8.png",
+      "bytes": 165,
+      "sha256": "5953e9522fccd3a34395746dd632cd88a244e093ddb9c36766edc5d5bed09981"
+    },
+    {
+      "path": "assets/textures/Item_881.png",
+      "bytes": 632,
+      "sha256": "d7e4f3520192da89427a3946d456308021cf4593fc5c6e536fd902d9547f1c5e"
+    },
+    {
+      "path": "assets/textures/Item_882.png",
+      "bytes": 297,
+      "sha256": "0f1bf89d2553b2f790068c71415108057e5112454ed7199253aff474738caa51"
+    },
+    {
+      "path": "assets/textures/Item_883.png",
+      "bytes": 200,
+      "sha256": "ea6ce68a276d772fa2956d38d7a0db75ce3f8996bdf59d0a5123b8a3a88f14f9"
+    },
+    {
+      "path": "assets/textures/Item_9.png",
+      "bytes": 251,
+      "sha256": "f3df63dffac340a44b7e3c189785e0f6f2db84565817a72f9821af641759f1eb"
+    },
+    {
+      "path": "assets/textures/Item_933.png",
+      "bytes": 288,
+      "sha256": "c4b017f0925bfac11af8f4336ff089de14810182b2645e3a837514491b61e612"
+    },
+    {
+      "path": "assets/textures/Item_94.png",
+      "bytes": 184,
+      "sha256": "76e3768dcdc24068e272aced5428f4bdd9a1e679aca9c93534b0c0dff6720f93"
+    },
+    {
+      "path": "assets/textures/Item_999.png",
+      "bytes": 254,
+      "sha256": "b98f38771686842d4f580b37603d9ef51ace6b0db01f407fc9698b9e8af1d692"
+    },
+    {
+      "path": "assets/textures/Mana.png",
+      "bytes": 263,
+      "sha256": "01f9add3ad6957e4b88412d0a466495fa7d1d8cd99a78062da0b3690e1cb3b28"
+    },
+    {
+      "path": "assets/textures/Moon_0.png",
+      "bytes": 3565,
+      "sha256": "8aa58952541019b5b2fa4fc42bd8e95b0e1c7044ea35ee9aab6c2823d7ddd38e"
+    },
+    {
+      "path": "assets/textures/NPC_1.png",
+      "bytes": 402,
+      "sha256": "fd371191a5766510c3db9612332a3cc4622222737a409b5f1e7d187af2bc9baa"
+    },
+    {
+      "path": "assets/textures/NPC_147.png",
+      "bytes": 709,
+      "sha256": "e8e282fdde1f29e402c7625816fa646ff21b4a3bbfc96dd09f9d82b36f5ce2b3"
+    },
+    {
+      "path": "assets/textures/NPC_184.png",
+      "bytes": 886,
+      "sha256": "c7eef9823c7504d1e5d4d6ea88db4d8c7a11126e5073d6152cf16e1ee2804e0c"
+    },
+    {
+      "path": "assets/textures/NPC_204.png",
+      "bytes": 695,
+      "sha256": "fa5f3affde751b006934a9e3f38aca19a2fee52d7cf3e4ebdfcde38c5b5724b2"
+    },
+    {
+      "path": "assets/textures/NPC_254.png",
+      "bytes": 1139,
+      "sha256": "37228023fa6794e46d9988f95674551a4db1ed516ebc4028371869fb36a6d79b"
+    },
+    {
+      "path": "assets/textures/NPC_3.png",
+      "bytes": 1075,
+      "sha256": "3d73dbe4b1c805910b47831e1c571096a5b1f5d1dd10b0cc41f6bb25a1fa9c9a"
+    },
+    {
+      "path": "assets/textures/NPC_49.png",
+      "bytes": 664,
+      "sha256": "260bcb191a3bb3990f1ba0d69ede3a2b9121f7e5469c67ba60c57ea4d2fdafcf"
+    },
+    {
+      "path": "assets/textures/NPC_537.png",
+      "bytes": 746,
+      "sha256": "636122a16fa94177cd939884b6da0055528889ecbde8f3ec928d6ad26a5fcfb0"
+    },
+    {
+      "path": "assets/textures/Player_0_0.png",
+      "bytes": 1958,
+      "sha256": "2989e229b8bc88e7ecee5c62f00657f95ab01212a8db9b5f6aa41ced766a7219"
+    },
+    {
+      "path": "assets/textures/Player_0_1.png",
+      "bytes": 1084,
+      "sha256": "362bedbc7fb0ae2154839b3c6dea197c963a1324038a8b7102c03a25aab9984d"
+    },
+    {
+      "path": "assets/textures/Player_0_10.png",
+      "bytes": 2061,
+      "sha256": "84be8148e20dfeb2c414f4837adab9f7e093719e777f6d18c45b5ff00e07805e"
+    },
+    {
+      "path": "assets/textures/Player_0_11.png",
+      "bytes": 2184,
+      "sha256": "4f02d064d7d654f763db41f577e3448abedcab8a7e165af846adc874c1b60481"
+    },
+    {
+      "path": "assets/textures/Player_0_12.png",
+      "bytes": 1355,
+      "sha256": "d3c3b9b4199e7f678b31ee10fff1bcfa04501e46ab10da7c1f6469b252262eef"
+    },
+    {
+      "path": "assets/textures/Player_0_2.png",
+      "bytes": 1084,
+      "sha256": "aa876f5d05d728d79a002d4c67fd479efa91880cc8d089b9cc98dcb390245061"
+    },
+    {
+      "path": "assets/textures/Player_Hair_1.png",
+      "bytes": 1561,
+      "sha256": "79756600259df1137c8ce8f9f85bedece4226ed63f8f67e9cca98e25b28e1f84"
+    },
+    {
+      "path": "assets/textures/Star_0.png",
+      "bytes": 125,
+      "sha256": "5b2bae7b6026eb91ec81a4180b194a1d3554f658fcb74bfbad7f9d95eb2c0fad"
+    },
+    {
+      "path": "assets/textures/Star_1.png",
+      "bytes": 132,
+      "sha256": "3d9d78007399df0486e42effed1766aab802c385cdcf5803fbece4541f0429e5"
+    },
+    {
+      "path": "assets/textures/Star_2.png",
+      "bytes": 98,
+      "sha256": "e65ef77b86d1a2a24515559952af9e29566cfa9ed9f4669e7b7abe90b030c9b9"
+    },
+    {
+      "path": "assets/textures/Sun.png",
+      "bytes": 5135,
+      "sha256": "25f58469ea6e63f4911588d903c574321b6d21f39801e9fc201b89aaccddb50b"
+    },
+    {
+      "path": "assets/textures/Tiles_0.png",
+      "bytes": 10961,
+      "sha256": "73b5dcacf4e1621ca61ce6a46c86d50dce2818c48366fde898d498b9437c11a2"
+    },
+    {
+      "path": "assets/textures/Tiles_1.png",
+      "bytes": 12632,
+      "sha256": "8c6cd50a8b9d70f08d0aa08cfbd862c714b2874cb5c60a7caa9ddea4d55307d9"
+    },
+    {
+      "path": "assets/textures/Tiles_14.png",
+      "bytes": 19444,
+      "sha256": "a2d433c5047d472fb1438aa5e50427a57d5d4e8e541f7a7c0979a23c546ab016"
+    },
+    {
+      "path": "assets/textures/Tiles_147.png",
+      "bytes": 12267,
+      "sha256": "302e8cdf7f8a4a1c13211fdc56761d227ccbfb8bfd6ae4ce67f4ddd1d325da63"
+    },
+    {
+      "path": "assets/textures/Tiles_148.png",
+      "bytes": 11581,
+      "sha256": "f8993a64b6054125d6741520aa94a952e7c1763d6442d7db7f8a552362061060"
+    },
+    {
+      "path": "assets/textures/Tiles_15.png",
+      "bytes": 22213,
+      "sha256": "c4d43932865a6305e65cfcee8e98e89eb6b41fe04bd6d069dce292fc7d19f339"
+    },
+    {
+      "path": "assets/textures/Tiles_151.png",
+      "bytes": 11632,
+      "sha256": "801f0ecbea8933efc4e029b3d358506a80f45a72af4b822e8b529b402f6dca08"
+    },
+    {
+      "path": "assets/textures/Tiles_16.png",
+      "bytes": 410,
+      "sha256": "37ab4b164ac7b6ae0f256fae9bfdc053bd8644496a4aba2f147f4d7907367c4e"
+    },
+    {
+      "path": "assets/textures/Tiles_17.png",
+      "bytes": 3084,
+      "sha256": "d0cc85081e4e094f8c3c5030cc4848e4f966d0aefdef84d213b7ef65b72295cf"
+    },
+    {
+      "path": "assets/textures/Tiles_179.png",
+      "bytes": 17495,
+      "sha256": "8ccf50cbb7030a69e096c095e821a6349136d544c06c12b2738f405549f26fa2"
+    },
+    {
+      "path": "assets/textures/Tiles_18.png",
+      "bytes": 17000,
+      "sha256": "f6cb609e0d816c55cae182e6ff04b7bddda733f9702b1e9c4f05d587d5faae99"
+    },
+    {
+      "path": "assets/textures/Tiles_19.png",
+      "bytes": 101935,
+      "sha256": "afcd92286bb5ad71e58a4bd871ec6d82befcce863ad30a5e7133a250fd51b8ce"
+    },
+    {
+      "path": "assets/textures/Tiles_191.png",
+      "bytes": 19053,
+      "sha256": "87087411800d71d2439e653b426c5f0468e57bb0151fcbdf327cf201862167ca"
+    },
+    {
+      "path": "assets/textures/Tiles_192.png",
+      "bytes": 4687,
+      "sha256": "0d2a431043d97f7c7b44c9eb803ae62829a9cde80bdb40adacf70a3c521a0530"
+    },
+    {
+      "path": "assets/textures/Tiles_2.png",
+      "bytes": 53534,
+      "sha256": "b741ac1e4c67812ae338385713f197a018030b4a8690eb751795a29bdcdfdc68"
+    },
+    {
+      "path": "assets/textures/Tiles_206.png",
+      "bytes": 11324,
+      "sha256": "b6fd92df3babe2b2cbb9a937ef5b2cf9cdafc3a1e76d89af383fe77bc8b752ed"
+    },
+    {
+      "path": "assets/textures/Tiles_21.png",
+      "bytes": 60641,
+      "sha256": "3d22c655040022cbff4006301579a1fcfed49587f68a5136a691120e6eae1dc2"
+    },
+    {
+      "path": "assets/textures/Tiles_273.png",
+      "bytes": 6141,
+      "sha256": "267e383e185ad1bb6e7eae3a7423c8fbd661223454dfbec99e68bb518922168e"
+    },
+    {
+      "path": "assets/textures/Tiles_30.png",
+      "bytes": 12671,
+      "sha256": "b27110738e07c5efdcc6b08487b78870de2c9475ff4ef9101b901c994a862c74"
+    },
+    {
+      "path": "assets/textures/Tiles_357.png",
+      "bytes": 5640,
+      "sha256": "73206dfba05ea3c46607400cc665eb4b0afe197109beda2dabe3845604f0c357"
+    },
+    {
+      "path": "assets/textures/Tiles_369.png",
+      "bytes": 11315,
+      "sha256": "a86e2fb10351e38f936eb86f25b0bb368df1317ee763ccebc96e473f48ec3803"
+    },
+    {
+      "path": "assets/textures/Tiles_38.png",
+      "bytes": 11601,
+      "sha256": "d67f02f2cba489b02724259a49341c9aac625e5e34650d19202d9d9318a85e1c"
+    },
+    {
+      "path": "assets/textures/Tiles_4.png",
+      "bytes": 10034,
+      "sha256": "38a8905fb6835272b3b76f640302bd5df3ed5a06f875c886dfa23276f8e980d2"
+    },
+    {
+      "path": "assets/textures/Tiles_5.png",
+      "bytes": 56836,
+      "sha256": "3fdbb21355b16a41278963a973336a216653305a6e211aab3520fad660c4131a"
+    },
+    {
+      "path": "assets/textures/Tiles_52.png",
+      "bytes": 2918,
+      "sha256": "d06121658a0307cf54e28e1ca8aa206adbe04bb402da56b50a76c9b9bb233afd"
+    },
+    {
+      "path": "assets/textures/Tiles_53.png",
+      "bytes": 12265,
+      "sha256": "b4f2d90cc78e89281cd47cfa779dc110f33356e76bce4b03f2eff3eaf74e51a7"
+    },
+    {
+      "path": "assets/textures/Tiles_54.png",
+      "bytes": 2196,
+      "sha256": "f71fc01fae40bd6c7aa240fb5914658f810c6c0d63493749f25f3084d5c0e650"
+    },
+    {
+      "path": "assets/textures/Tiles_566.png",
+      "bytes": 14241,
+      "sha256": "f37d8e4396d3244191eb0cf502b7d86e0e99583507d8170415f4196718b29f7a"
+    },
+    {
+      "path": "assets/textures/Tiles_59.png",
+      "bytes": 11065,
+      "sha256": "d0ca4c77717332ca3df84f1e483d87406311396853d8eb9f254b29d46f2098b3"
+    },
+    {
+      "path": "assets/textures/Tiles_6.png",
+      "bytes": 11864,
+      "sha256": "c0cceee2541d35757d25282f234a833c31292337aacd9941197fab93f2fc17a8"
+    },
+    {
+      "path": "assets/textures/Tiles_60.png",
+      "bytes": 15845,
+      "sha256": "41f7925a09ffa05787b60ed02eb0b06d9a981fbaf88bdc21878d9ff701ef9593"
+    },
+    {
+      "path": "assets/textures/Tiles_7.png",
+      "bytes": 12016,
+      "sha256": "63338e8249a9cdc888d293c43ff4252fa938567fcbf3ffebfefe7d11566df5c0"
+    },
+    {
+      "path": "assets/textures/Tiles_70.png",
+      "bytes": 16085,
+      "sha256": "fe357ae629fb62f0657ecdcfb15610ad99365f610140261e6f1a2d06a430d010"
+    },
+    {
+      "path": "assets/textures/Tiles_71.png",
+      "bytes": 440,
+      "sha256": "51d3da91dc990c1840fc418a4edb633a3c9d064bd03d1bb0263deda761664030"
+    },
+    {
+      "path": "assets/textures/Tree_Branches_0.png",
+      "bytes": 1542,
+      "sha256": "c98b2e9a13866c7e5f042c9f40a45dd9e6c025fabc5eb7836d33afe2e2048011"
+    },
+    {
+      "path": "assets/textures/Tree_Tops_0.png",
+      "bytes": 3729,
+      "sha256": "e9fa5231c48c59a7c2ec8cae0f16018404f289b17557620e8323d572f70d48fd"
+    },
+    {
+      "path": "assets/textures/Webrraria_Logo.png",
+      "bytes": 12250,
+      "sha256": "a4fb7f311d59e97c60d54700859262bf64ff111e3effc5e6d5789c75e83eaced"
+    },
+    {
+      "path": "assets/ui/Webrraria.ico",
+      "bytes": 82318,
+      "sha256": "3b53c725ce44d459b9147e69b4bce75b244194f90b4b4e6cbf39dc94bedbe0e5"
+    },
+    {
+      "path": "assets/ui/developer-logo.png",
+      "bytes": 13146,
+      "sha256": "d04ce90a7abccd33ea190c7bea1c792eacf2628633d102ee739fa00e28e2bccb"
+    },
+    {
+      "path": "assets/ui/discord-logo.png",
+      "bytes": 3017,
+      "sha256": "a4d37bad6eb12f24245e2f3bc30aa77783346c775bfcce5337f5c43fa30fd811"
+    },
+    {
+      "path": "assets/ui/webrraria-icon-180.png",
+      "bytes": 30963,
+      "sha256": "e7e5294d82f45b1da014200eb20bbb1b913a87165f20b8151d79341067d6d3ab"
+    },
+    {
+      "path": "assets/ui/webrraria-icon-32.png",
+      "bytes": 1881,
+      "sha256": "1dddb996beda37eadc0c6248c32faa02e6d7dcabce7b3f6fa34cfc0e92e83dff"
+    },
+    {
+      "path": "assets/ui/webrraria-logo.png",
+      "bytes": 12250,
+      "sha256": "a4fb7f311d59e97c60d54700859262bf64ff111e3effc5e6d5789c75e83eaced"
+    }
+  ]
+}
+
