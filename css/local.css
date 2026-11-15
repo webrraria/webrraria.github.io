@@ -1,0 +1,4 @@
+#localLaunchMessage[hidden]{display:none!important}
+#localLaunchMessage,.local-noscript{position:fixed;inset:0;z-index:2147483646;background:#182746;color:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;padding:32px;text-align:center;font:20px Arial,sans-serif;line-height:1.5}
+#localLaunchMessage p{max-width:650px}
+.mobile-unsupported #localLaunchMessage,.mobile-unsupported .local-noscript{display:none!important}
